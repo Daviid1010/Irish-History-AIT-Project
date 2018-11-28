@@ -15,14 +15,14 @@ namespace IrishHistoryAITProject.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "About the Irish War of Independence";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Contact Us For More Information!";
 
             return View();
         }
